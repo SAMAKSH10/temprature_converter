@@ -39,7 +39,7 @@ celsiusbtn=Button(root,text="Celsius To Fahrenheit",command=celsiusToFahrenheit)
 celsiusbtn.config(font=('arial',20),bg="black",fg="white",padx=10,pady=10,border=1)
 celsiusbtn.grid(row=1,column=0)
 
-Fahrenheitbtn=Button(root,text="Fahrenheit To Celsius")
+Fahrenheitbtn=Button(root,text="Fahrenheit To Celsius",command=FahrenheitToCelsius)
 Fahrenheitbtn.config(font=('arial',20),bg="black",fg="white",padx=10,pady=10,border=1)
 Fahrenheitbtn.grid(row=1,column=1)
 
